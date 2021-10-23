@@ -4,12 +4,10 @@ let sekunder = document.querySelector('#sekunder')
 let thomas = document.querySelector('#thomas')
 let button = document.querySelector('#button')
 
-const backgroundImage = () => {
-    "url('./assets/2.jpg')"
-}
+
 thomas.style.backgroundImage = "url('./assets/glad.png')"
 
-button.addEventListener('click', backgroundImage)
+
 
 const settid = () => {
     let tid = new Date()
