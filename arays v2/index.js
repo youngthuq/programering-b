@@ -113,6 +113,7 @@ let frames = [
         }
     },
     {
+        
         frame: 'Volt',
         element: 'Element Lightning',
         fasion: 'Fasion 85/100',
