@@ -13,8 +13,8 @@ let frames = [
     {
         frame: 'Ember',
         element: 'Element Fire',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 70/100',
+        op: ['Strengt 100/100'],
         companion: {
             type: 'Kubrow', 
             name: 'Sunika'
@@ -24,8 +24,8 @@ let frames = [
     {
         frame: 'Equenox',
         element: 'Element Radiation',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 85/100',
+        op: ['Strengt 100/100'],
         companion: {
             type: 'Kavat', 
             name: 'Smeeta'
@@ -35,8 +35,8 @@ let frames = [
     {
         frame: 'Hydron',
         element: 'Element water',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 30/100',
+        op: ['Strengt 20/100'],
         companion: {
             type: 'Robot', 
             name: 'Taxon'
@@ -45,8 +45,8 @@ let frames = [
     {
         frame: 'Barruk',
         element: 'Element Radiation',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 75/100',
+        op: ['Strengt 100/100'],
         companion: {
             type: 'Kubrow', 
             name: 'Haras'
@@ -55,8 +55,8 @@ let frames = [
     {
         frame: 'Saryn',
         element: 'Element Poison',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 45/100',
+        op: ['Strengt 100/100'],
         companion: {
             type: 'Robot', 
             name: 'Death Cube'
@@ -65,8 +65,8 @@ let frames = [
     {
         frame: 'Nyx',
         element: 'Element Radiaton',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 15/100',
+        op: ['Strengt 5/100'],
         companion: {
             type: 'Robot', 
             name: 'Death Cube Prime'
@@ -75,8 +75,8 @@ let frames = [
     {
         frame: 'Croma',
         element: 'Element Fire',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 99/100',
+        op: ['Strengt 65/100'],
         companion: {
             type: 'Kubrow', 
             name: 'Chesa'
@@ -85,8 +85,8 @@ let frames = [
     {
         frame: 'Zephyr',
         element: 'Element Wind',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 65/100',
+        op: ['Strengt 25/100'],
         companion: {
             type: 'Kubrow', 
             name: 'Pharaoh Predasite'
@@ -96,7 +96,7 @@ let frames = [
         frame: 'Wisp',
         element: 'Element Radiation',
         fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        op: ['Strengt 100/100'],
         companion: {
             type: 'Kavat', 
             name: 'Crescent Vulpaphyla'
@@ -105,8 +105,8 @@ let frames = [
     {
         frame: 'Frost',
         element: 'Element Ice',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 75/100',
+        op: ['Strengt 45/100'],
         companion: {
             type: 'Kavat', 
             name: 'Vasca'
@@ -115,8 +115,8 @@ let frames = [
     {
         frame: 'Volt',
         element: 'Element Lightning',
-        fasion: 'Fasion 100/100',
-        op: ['Strengt 0/100'],
+        fasion: 'Fasion 85/100',
+        op: ['Strengt 80/100'],
         companion: {
             type: 'Kubrow', 
             name: 'Helminth Charger'
