@@ -37,11 +37,11 @@ header{
     position: fixed;
     top: 0;
     width: 100vw;
-    background-color: white;
+    background-color: lightskyblue;
 }
 
 #title{
-    border-bottom: .5rem hotpink solid;
+    border-bottom: .5rem aquamarine solid;
     padding: 0 1rem .5rem 1rem;
 }
 
@@ -51,7 +51,7 @@ main{
     padding: 2rem;
     gap: 1rem;
     margin-top: 20vh;
-
+    background-color: lightskyblue;
 }
 
 .member::-webkit-scrollbar{
@@ -60,7 +60,7 @@ main{
 
 .card{
     height: 20vh;
-    background-color: lightgray;
+    background-color: lightblue;
     border-radius: 1rem;
     padding: 1rem;
     display: grid;
@@ -77,8 +77,8 @@ main{
     overflow-y: scroll;
     border-radius: 1rem;
     padding: .5rem;
-    background-color: gray;
+    background-color: blue;
 }
 footer{
-
+    background-color: lightskyblue;
 }

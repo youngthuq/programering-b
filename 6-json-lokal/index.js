@@ -1,47 +1,52 @@
 let data
 
-fetch('./data/birds.json')
+
+fetch('./data/gg.json')
 
     .then( res => res.json() )
+   
+    .then (json => {
+            console.log(json)
+ 
+            console.log(json)
+            data = json.artifacts
+            document.querySelector('#title').innerHTML = json.description
+ 
+            json.artifacts.map( artifacts => {
+                newCard(artifacts)
+            })
 
-    .then( json => {
-        console.log(json)
-        data = json.birds
-        document.querySelector('#title').innerHTML = json.description
-        json.birds.map( bird => {
-            newCard(bird)
-        })
-    })
-
-
-    document.querySelector('#input').addEventListener('input', () => {
-        let result = data.filter( bird => bird.family.includes(document.querySelector('#input').Value()) )
-        document.querySelector('main').innerHTML = ''
-        result.map( bird => newCard(bird))
-    })
-
-    document.querySelector('#s').addEventListener('click', () => {
-        document.querySelector('#sb').classList.add('show')
-    })
-    document.querySelector('#close').addEventListener('click', () => {
-        document.querySelector('#sb').classList.remove('show')
-    })
+        }  )
 
 
 
-    const newCard = (bird) => {
+        
+    const newCard = (artif) =>{
         let card = document.createElement('div')
         let heading = document.createElement('h2')
-        let members = document.createElement('div')
+        let lel = document.createElement('div')
+        let nede = document.createElement('div')
         card.classList.add('card')
-        members.classList.add('member')
+        lel.classList.add('members')
+        nede.classList.add('mem')
+        heading.innerHTML = artif.name
+        lel.innerHTML = artif.synonyms
+        lel.innerHTML = artif.qualities
+        nede.innerHTML = artif.nature
+        
+        
         card.append(heading)
-        card.append(members)
-        heading.innerHTML = bird.family
-        let list = ''
-        bird.members.map( member => list += '<li>' + member + '</li>')
-        members.innerHTML = list
-        document.querySelector('main').append(card)
-    }
+        card.append(lel)
+        card.append(lel)
+        card.append(nede)
 
- 
+        
+        
+        let list = ''
+        artif.synonyms.map(synonyms =>list += '<li>' + synonyms + '</li>')
+        artif.qualities.map(qualities =>list += '<li>' + qualities + '</li>')
+        
+        document.querySelector('main').append(card)
+        lel.innerHTML = list
+        
+    }
