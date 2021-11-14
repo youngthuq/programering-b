@@ -1,16 +1,21 @@
-let activity
-
-const getActibity = () => {
+const getActivity = () => {
     fetch('https://www.boredapi.com/api/activity/')
         .then( Response => Response.json() )
-        .then( json => creatCard(activity) )
-
+        .then( json => {
+            console.log(json)
+            creatCard(json)
+        } )
+            
 }
 
 const creatCard = a => {
     document.querySelector('#title').innerHTML = a.activity
     document.querySelector('#participants').innerHTML = a.participants
-    document.querySelector('#acc').innerHTML = a.acc
+    document.querySelector('#acc').innerHTML = a.accessibility
     document.querySelector('#price').innerHTML = a.price
-    document.querySelector('#cat').innerHTML = a.cat
+    document.querySelector('#cat').innerHTML = a.type
 }
+
+getActivity()
+
+document.querySelector('#fetch').addEventListener('click', getActivity)
