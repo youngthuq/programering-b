@@ -1,3 +1,12 @@
+let button = document.querySelector('#button')
+if ('#button') click => {
+    fetch('https://www.boredapi.com/api/activity/')
+    .then( Response => Response.json() )
+    .then( json => {
+        console.log(json)
+        creatCard(json)
+    } )
+}
 const getActivity = () => {
     fetch('https://www.boredapi.com/api/activity/')
         .then( Response => Response.json() )
@@ -7,7 +16,7 @@ const getActivity = () => {
         } )
             
 }
-
+addEventListener = click 
 const creatCard = a => {
     document.querySelector('#title').innerHTML = a.activity
     document.querySelector('#participants').innerHTML = a.participants
