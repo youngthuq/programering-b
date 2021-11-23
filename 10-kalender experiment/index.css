@@ -6,3 +6,17 @@
     font-family: 'Roboto';
 }
 
+body{
+    background: rgb(214,0,28);
+}
+
+main{
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
+    padding: 1rem;
+}
+
+.door{
+    background: white;
+}
+
