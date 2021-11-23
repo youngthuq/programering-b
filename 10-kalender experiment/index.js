@@ -10,18 +10,31 @@ fetch('./kalender.json')
             div.style.width = door.width
             div.style.height = door.height
             div.innerHTML = door.date
+
+            switch(door.content){
+                case 'image':
+                    setImage(div, door)
+                    break
+                case 'youtube' :
+                    setYoutube(div, door)
+                break
+                default:
+                break
+            }
+
+
             document.querySelector('main').append(div)
         })
     })
 
 
-    const setImage = (id, obj) => {
-    
+    const setImage = (div, obj) => {
+        div.style.backgroundImage = `url('${obj.url}')`
     }
 
-    const setYoutube = (id, obj) => {
-
+    const setYoutube = (div, obj) => {
+        div.innerHTML(obj.embed)
     }
-    const setBordApi = (id, obj) => {
+    const setBordApi = (div, obj) => {
 
     }
