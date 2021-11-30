@@ -33,7 +33,7 @@ fetch('./kalender.json')
     }
 
     const setYoutube = (div, obj) => {
-        div.innerHTML(obj.embed)
+        div.innerHTML = obj.embed
     }
     const setBordApi = (div, obj) => {
 
