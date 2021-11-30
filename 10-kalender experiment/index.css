@@ -19,5 +19,8 @@ main{
 .door{
     background: rgb(255, 255, 255);
     background-size: cover;
+    padding: 1rem;
+    gap: 1rem;
+    
 }
 
