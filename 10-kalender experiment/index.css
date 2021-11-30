@@ -14,13 +14,12 @@ main{
     display: grid;
     grid-template-columns:  repeat(auto-fit, minmax(300px, 1fr));
     padding: 1rem;
+    gap: 1rem;
 }
 
 .door{
     background: rgb(255, 255, 255);
     background-size: cover;
     padding: 1rem;
-    gap: 1rem;
-    
 }
 
