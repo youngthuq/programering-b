@@ -52,7 +52,6 @@ function show(){
     ellipseMode(CENTER)
     imageMode(CENTER)
     //ellipse(x, y, diameter)
-   
     let a = frameCount % animRate / 10
     if(a <= 1)image(fish1, x, y)
     if(a >= 1 && a < 2)image(fish2, x, y)
