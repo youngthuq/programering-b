@@ -13,7 +13,6 @@ body{
     padding: 7rem;
     background-image: url('./assets/måne.jpg');
     background-size: cover;
-    background-position: 93.5rem .01rem;
     place-items: center;
     height: 100vh;
 }
