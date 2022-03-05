@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 *{
     margin: 0;
@@ -44,4 +44,19 @@ div{
 div:hover{
     transform: scale(1.03);
     border-radius: 2rem;
+}
+
+#button-1{
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
+
+#button-2{
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
+
+#button-3{
+    font-family: 'Roboto';
+    font-size: 2rem;
 }
