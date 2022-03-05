@@ -12,7 +12,8 @@ body{
     gap: 5rem;
     padding: 7rem;
     background-image: url('./assets/måne.jpg');
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: auto;
     place-items: center;
     height: 100vh;
 }
