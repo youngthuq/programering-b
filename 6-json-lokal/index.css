@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#sb{
+    background-color: lightblue;
+    z-index: 2;
+    position: fixed;
+    top: -20vh;
+    width: 100vw;
+    height: 20vh;
+    display: grid;
+    place-items: center;
+    transition: .3s ease-in-out;
+}
+
+#sb.show{
+    top: 0;
+}
+
+#s, #close{
+    cursor: pointer;
+}
+
+input{
+    width: 50vw;
+    font-size: 3rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+}
+header{
+    height: 20vh;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: lightskyblue;
+}
+
+#title{
+    border-bottom: .5rem aquamarine solid;
+    padding: 0 1rem .5rem 1rem;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2rem;
+    gap: 1rem;
+    margin-top: 20vh;
+    background-color: lightskyblue;
+}
+
+.member::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    height: 20vh;
+    background-color: lightblue;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr 4fr;
+}
+
+.card h2{
+    display: grid;
+    place-items: center;
+}
+.card .member{
+    display: grid;
+    overflow-y: scroll;
+    border-radius: 1rem;
+    padding: .5rem;
+    background-color: blue;
+}
+footer{
+    background-color: lightskyblue;
+}

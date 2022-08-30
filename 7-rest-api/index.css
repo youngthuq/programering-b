@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    height: 15vh;
+     background: black;
+     color: white;
+     text-shadow: 0 0 12px white;
+
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: grid;
+    place-items: center;
+    height: 10vh;
+  
+}
+
+#activity{
+    width: 80vw;
+    height: 60vh;
+    border: solid white;
+    background-color: skyblue;
+    border-radius: 1rem;
+    box-sizing: 0 0 12px 6px gray;
+    padding: 4rem;
+}
+
+footer{
+    height: 8vh;
+    display: grid;
+    place-items: center;
+}

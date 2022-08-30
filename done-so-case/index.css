@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato';
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5rem;
+    padding: 7rem;
+    background-image: url('./assets/måne.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    place-items: center;
+    height: 100vh;
+}
+
+header{
+    display: grid;
+    place-items: center;
+    background-color: gray;
+    color: black;
+    padding: 1rem;
+    height: 10vh;
+    width: 25vw;
+    border-radius: 1rem;
+    padding: .5rem;
+}
+
+div{
+    display: grid;
+    background-color: lightblue;
+    border-radius: 1rem;
+    place-items: center;
+    padding: 1rem;
+    width: 40rem;
+    cursor: pointer;
+    
+}
+
+div:hover{
+    transform: scale(1.03);
+    border-radius: 2rem;
+}
+
+#button-1{
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
+
+#button-2{
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
+
+#button-3{
+    font-family: 'Roboto';
+    font-size: 2rem;
+}
